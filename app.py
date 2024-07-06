@@ -60,7 +60,7 @@ def submit():  #when text is entered
      st.session_state.query =''
 
 
-st.title("Supra ChatBot -- test")
+st.title("SP3 curiosity")
 
 st.text_input("What are you curious about:", key='query', on_change=submit)
 
